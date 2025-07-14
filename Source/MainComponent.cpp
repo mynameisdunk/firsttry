@@ -18,7 +18,7 @@ void MainComponent::paint (juce::Graphics& g)
 
     g.setFont (juce::FontOptions (48.0f));
     g.setColour (juce::Colours::red);
-    g.drawText ("Hello Butlickers!", getLocalBounds(), juce::Justification::centred, true);
+    g.drawText ("Hello Buttlickers!", getLocalBounds(), juce::Justification::centred, true);
 }
 
 void MainComponent::resized()
